@@ -1,0 +1,37 @@
+html
+{
+    background-image: url(https://www.exeter.edu/sites/default/files/news/Exeter-Academy-Bldg.jpg);
+}
+#wholepage
+{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    background-color: maroon;
+    color:white;
+}
+.table1
+{
+    margin: auto;
+    padding: 20px;
+    border: 10px;
+    width: 90%; 
+}
+.buttons
+{
+    width: 80px;
+}    
+.imageChange
+{
+    width: 100px;
+}
+#nextDiv
+{
+    transform: rotate(180deg);
+}
+#text
+{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
