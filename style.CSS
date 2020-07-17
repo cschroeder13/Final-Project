@@ -21,6 +21,11 @@ html
 {
     width: 80px;
 }    
+.buttons:hover
+{
+    color: maroon;
+    
+}
 .imageChange
 {
     width: 100px;

@@ -2,38 +2,38 @@ var img = document.getElementById("myImage");
 
 document.getElementById("next").addEventListener("click", function()
 {
-    if(img.src == "file:///Users/caden/Final-Project/Final%20Project/friends.PNG")
+    if(img.src == "file:///Users/caden/Final-Project/friends.PNG")
         {
             img.src = "frodoBurrito.PNG";
         }
-    else if(img.src == "file:///Users/caden/Final-Project/Final%20Project/frodoBurrito.PNG")
+    else if(img.src == "file:///Users/caden/Final-Project/frodoBurrito.PNG")
         {
             img.src = "skiing.PNG";
         }
-        else if(img.src == "file:///Users/caden/Final-Project/Final%20Project/skiing.PNG")
+        else if(img.src == "file:///Users/caden/Final-Project/skiing.PNG")
         {
             img.src = "friendsWinter.jpg";
         }
-        else if(img.src == "file:///Users/caden/Final-Project/Final%20Project/friendsWinter.jpg")
+        else if(img.src == "file:///Users/caden/Final-Project/friendsWinter.jpg")
         {
             img.src = "friends.PNG";
         }
 });
 document.getElementById("last").addEventListener("click", function()
 {
-    if(img.src == "file:///Users/caden/Final-Project/Final%20Project/friends.PNG")
+    if(img.src == "file:///Users/caden/Final-Project/friends.PNG")
         {
             img.src = "friendsWinter.jpg";
         }
-    else if(img.src == "file:///Users/caden/Final-Project/Final%20Project/frodoBurrito.PNG")
+    else if(img.src == "file:///Users/caden/Final-Project/frodoBurrito.PNG")
         {
             img.src = "friends.PNG";
         }
-        else if(img.src == "file:///Users/caden/Final-Project/Final%20Project/skiing.PNG")
+        else if(img.src == "file:///Users/caden/Final-Project/skiing.PNG")
         {
             img.src = "frodoBurrito.PNG"
         }
-        else if(img.src=="file:///Users/caden/Final-Project/Final%20Project/friendsWinter.jpg")
+        else if(img.src=="file:///Users/caden/Final-Project/friendsWinter.jpg")
         {
             img.src="skiing.PNG"
         }
